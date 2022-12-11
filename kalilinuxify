@@ -11,6 +11,6 @@ echo "Everytime you run apt update again after this,please use the --allow-insec
 sleep 3
 echo "What metapackages to install? leave blank for none "
 read metapkg 
-echo "Ok,installing the following metapackages = $metapkg "
+echo "0k,installing the following metapackages = $metapkg "
 apt install $metapkg
 
